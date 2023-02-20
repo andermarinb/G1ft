@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "132145910180",
+    "project_id": "gifthem1",
+    "storage_bucket": "gifthem1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132145910180:android:97365d20749dcfacdab131",
+        "android_client_info": {
+          "package_name": "com.example.gifth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132145910180-6gkld90mgthpoqbff3itnap1ctp3883u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3VGagA2JeKQZX2UlQfN0MCNxKGM3w01k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132145910180-6gkld90mgthpoqbff3itnap1ctp3883u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
