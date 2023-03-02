@@ -15,7 +15,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.gifth.MainActivity
@@ -67,7 +66,7 @@ fun LoginForm(navController: NavController, viewModel: LoginViewModel, activity:
             .padding(top = 100.dp)
     ) {
 
-        ButtonAccces(text = "Acceder con Google", icon = R.drawable.ic_launcher_foreground) {
+        ButtonAccces(text = "Acceso con Google", icon = R.drawable._google) {
             viewModel.logInWithGoogle(activity)
         }
 
