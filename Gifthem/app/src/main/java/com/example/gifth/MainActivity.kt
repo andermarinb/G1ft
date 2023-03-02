@@ -52,6 +52,7 @@ class MainActivity : ComponentActivity() {
         val currentUser = auth.currentUser
         updateUI(currentUser)
     }
+
     private fun startSignIn() {
         // Initiate sign in with custom token
         // [START sign_in_custom]
@@ -66,8 +67,10 @@ class MainActivity : ComponentActivity() {
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.w(TAG, "signInWithCustomToken:failure", task.exception)
-                        Toast.makeText(baseContext, "Authentication failed.",
-                            Toast.LENGTH_SHORT).show()
+                        Toast.makeText(
+                            baseContext, "Authentication failed.",
+                            Toast.LENGTH_SHORT
+                        ).show()
                         updateUI(null)
                     }
                 }
