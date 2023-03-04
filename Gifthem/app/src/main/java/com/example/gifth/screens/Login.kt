@@ -20,7 +20,6 @@ import androidx.navigation.NavController
 import com.example.gifth.MainActivity
 import com.example.gifth.TopBar
 import com.example.gifth.views.LoginViewModel
-
 @SuppressLint("UnusedMaterialScaffoldPaddingParameter")
 @Composable
 fun Login(navController: NavController) {
